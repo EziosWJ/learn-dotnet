@@ -1,0 +1,33 @@
+# .NET 构建产物
+bin/
+obj/
+
+# Visual Studio 相关文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# 用户特定配置
+[Nn]uGet.[Cc]onfig
+packages.lock.json
+
+# 日志和临时文件
+*.log
+*.tmp
+
+# 测试覆盖率结果
+coverage/
+*.coverage
+*.coveragexml
+
+# 发布文件
+publish/
